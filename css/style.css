@@ -467,13 +467,8 @@ select {
 
 .article-sidebar__pdf:hover,
 .article-sidebar__pdf:focus-visible {
-  color: var(--color-paper);
-  background: var(--color-accent);
-}
-
-.article-sidebar__pdf:hover::after,
-.article-sidebar__pdf:focus-visible::after {
-  filter: brightness(0) invert(1);
+  color: var(--color-ink);
+  background: #CEECFF;
 }
 
 .article-menu {
@@ -647,13 +642,8 @@ select {
 
 .text-style h2 > .text-style__read-more:hover,
 .text-style h2 > .text-style__read-more:focus-visible {
-  color: var(--color-paper);
-  background: var(--color-accent);
-}
-
-.text-style h2 > .text-style__read-more:hover .text-style__read-more-icon,
-.text-style h2 > .text-style__read-more:focus-visible .text-style__read-more-icon {
-  filter: brightness(0) invert(1);
+  color: var(--color-ink);
+  background: #CEECFF;
 }
 
 .article-contacts {
