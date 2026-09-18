@@ -1045,7 +1045,7 @@ select {
   }
 
   .article-contacts {
-    margin-top: 38px;
+    margin-top: 60px;
     padding-top: 22px;
   }
 
@@ -1066,4 +1066,9 @@ select {
   .article-contacts__photo-frame {
     height: min(180px, calc((100vw - 40px) * 0.6));
   }
+}
+
+.article-sidebar__pdf.on_mobile{display:none;}
+@media (max-width: 600px) {
+	.article-sidebar__pdf.on_mobile{display:flex;}
 }
