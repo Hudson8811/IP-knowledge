@@ -930,7 +930,7 @@ select {
     right: 30px;
     display: flex;
     width: 21px;
-    height: 20px;
+    height: 21px;
     padding: 0;
     border: 0;
     color: var(--color-ink);
@@ -943,7 +943,7 @@ select {
   .article-menu__close-icon {
     display: block;
     width: 21px;
-    height: 20px;
+    height: 21px;
   }
 
   .article-menu__close:hover,
